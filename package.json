@@ -1,0 +1,20 @@
+{
+  "name": "devday",
+  "version": "1.0.0",
+  "description": "devday static website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisnardi/devday.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nisnardi/devday/issues"
+  },
+  "homepage": "https://github.com/nisnardi/devday#readme",
+  "devDependencies": {
+    "browser-sync": "2.10.0"
+  },
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js"
+  }
+}

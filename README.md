@@ -1,2 +1,10 @@
-#DevDayAR
-Sitio oficial de [DevDay Argentina](http://devdayar.com/)
+# DevDayAR
+
+Official website: [DevDay Argentina](http://devdayar.com)
+
+## Development
+
+```
+npm install
+npm start
+```

@@ -12,9 +12,11 @@
   },
   "homepage": "https://github.com/nisnardi/devday#readme",
   "devDependencies": {
-    "browser-sync": "2.10.0"
+    "browser-sync": "2.10.0",
+    "gh-pages": "0.6.0"
   },
   "scripts": {
+    "gh-pages": "gh-pages -d public",
     "start": "browser-sync start --config bs-config.js"
   }
 }

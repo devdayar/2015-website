@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-  color: #e10079;
   font-size: 2rem;
 }
 
@@ -59,7 +58,7 @@ header {
 }
 
 header h1 {
-  color: #ed49a0;
+  color: #ffc4ff;
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -77,21 +76,7 @@ header img {
 }
 
 header .button {
-  background: #ed49a0;
-  box-shadow: 0 0 2px rgba(0, 0, 0, .5);
-  font-weight: bold;
-  width: 400px;
-  font-size: 20px;
-  line-height: 200%;
   margin-top: 50px;
-  text-transform: uppercase;
-  border-radius: 3px;
-  transition: all .2s ease-in-out;
-}
-
-header .button:hover {
-  box-shadow: 0 0 2px rgba(0, 0, 0, .5);
-  transform: scale(1.05);
 }
 
 header .table {
@@ -105,8 +90,27 @@ header .table-cell {
   vertical-align: middle;
 }
 
+.button {
+  background: #ed49a0;
+  border: 1px solid rgba(0, 0, 0, .5);
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 200%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
+
+.button.button-big {
+  max-width: 400px;
+  width: 100%;
+}
+
 .button:hover {
-  background: #e10079;
+  background: #c242a6;
+  letter-spacing: 2px;
+  transform: scale(1.05);
 }
 
 .gradient {
@@ -133,17 +137,30 @@ section h1 {
 }
 
 iframe{
+  box-shadow: 0 0 25px rgba(0, 0, 0, .5);
+  height: 450px;
+  margin-top: 40px;
   width: 100%;
-  height: 400px;
 }
 
 footer {
-  padding-top: 20px;
-  background: #060910;
+  background: #444;
+  color: #fff;
+  padding: 40px 0;
 }
 
-footer h1{
-  color: #e10079;
-  font-size: 24px;
-  text-align:center;
+footer .button {
+  margin-top: 25px;
+}
+
+footer .social-links {
+  list-style: none;
+  margin-top: 50px;
+}
+
+footer .social-links li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  vertical-align: middle;
 }

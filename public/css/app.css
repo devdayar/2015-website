@@ -153,16 +153,22 @@ ul {
 
 .schedule-container {
   border: 1px solid rgba(0, 0, 0, .25);
+  margin-top: 25px;
 }
 
 .schedule-hour {
   color: #c242a6;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: bold;
+  margin-bottom: 0;
+}
+
+.schedule-hour + p {
+  margin-left: 25px;
 }
 
 .schedule-row {
-  padding: 40px 20px 20px;
+  padding: 15px 20px 5px;
 }
 
 .schedule-row.even {

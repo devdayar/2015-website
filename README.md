@@ -30,4 +30,6 @@ npm run gh-pages
 - [X] ~~Link to DevDayAr's Github organization~~
 - [X] ~~Link to Eventioz~~
 - [X] ~~Favicon~~
+- [ ] Create sponsors section
+- [ ] At least, autoprefix the css
 - [ ] Automate publication to the FTP server

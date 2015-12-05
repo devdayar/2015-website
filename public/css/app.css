@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  background-image: linear-gradient(#A3D9FF, #6F8AB7);
+  background: #6D6875;
   color: #fff;
   padding: 40px 0;
 }
@@ -57,26 +57,21 @@ h1{
 
 header {
   border-bottom: 1px solid rgba(0, 0, 0, .5);
-  color: white;
   text-align: center;
 }
 
 header h1 {
-  color: #ffc4ff;
+  color: #ed49a0;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-header h2 {
-  font-size: 20px;
-}
-
-header h3 {
-  font-size: 22px;
-}
-
 header img {
   margin-bottom: 40px;
+}
+
+header p {
+  font-size: 1.25rem;
 }
 
 header .button {
@@ -92,6 +87,10 @@ header .table {
 header .table-cell {
   display: table-cell;
   vertical-align: middle;
+}
+
+header .text-shadow {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
 }
 
 iframe {
@@ -193,14 +192,25 @@ ul {
   z-index: 100;
 }
 
-.gradient {
-  background-image: linear-gradient(#A3D9FF, #6F8AB7);
-}
-
 .menu > li {
   border-top: 1px solid rgba(255, 255, 255, .25);
   display: block;
   padding: 10px 0;
+}
+
+.pattern {
+  animation: animate-pattern 5s ease-in-out infinite alternate;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+}
+
+@keyframes animate-pattern {
+  0 {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
 }
 
 .schedule-container {

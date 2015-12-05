@@ -107,6 +107,16 @@ img.img-thumbnail {
   display: block;
   margin: 10px auto;
   padding: 5px;
+  transform: perspective(0);
+  transition: all .25s ease-in-out;
+}
+
+img.img-thumbnail.left:hover {
+  transform: perspective(600px) rotateY(15deg);
+}
+
+img.img-thumbnail.right:hover {
+  transform: perspective(600px) rotateY(-15deg);
 }
 
 section {
@@ -196,6 +206,11 @@ ul {
 .schedule-container {
   border: 1px solid rgba(0, 0, 0, .25);
   margin-top: 25px;
+  transition: all .1s ease-in-out;
+}
+
+.schedule-container:hover {
+  transform: scale(1.01);
 }
 
 .schedule-hour {

@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  color: #444;
+  color: #666;
   font-size: 16px;
   letter-spacing: .75px;
 }
@@ -24,11 +24,21 @@ footer .social-links {
   margin-top: 50px;
 }
 
+footer .social-links a {
+  display: inline-block;
+  vertical-align: top;
+}
+
 footer .social-links li {
   display: inline-block;
   margin: 0 10px;
   padding: 10px;
-  vertical-align: middle;
+  vertical-align: top;
+}
+
+footer .social-links img {
+  height: 50px;
+  width: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,7 +50,7 @@ h1{
 }
 
 header {
-  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
   color: white;
   text-align: center;
 }
@@ -89,11 +99,18 @@ section {
 }
 
 section.light {
-  background: #ddd;
+  background: #f9f9f9;
+}
+
+section .title {
+  border-bottom: 2px solid #c242a6;
+  display: inline-block;
+  padding: 0 10px 5px;
+  margin-bottom: 25px;
 }
 
 section.white {
-  background-color: white;
+  background-color: #fff;
 }
 
 section h1 {
@@ -200,6 +217,10 @@ ul {
 }
 
 @media screen and (min-width: 40em) {
+  footer .social-links {
+    margin-top: 0;
+  }
+
   .menu > li {
     border-top: 0;
     display: table-cell;

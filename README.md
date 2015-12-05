@@ -30,3 +30,4 @@ npm run gh-pages
 - [X] ~~Link to DevDayAr's Github organization~~
 - [X] ~~Link to Eventioz~~
 - [X] ~~Favicon~~
+- [ ] Automate publication to the FTP server

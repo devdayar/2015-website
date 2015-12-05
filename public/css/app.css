@@ -100,6 +100,15 @@ iframe {
   width: 100%;
 }
 
+img.img-thumbnail {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+}
+
 section {
   padding: 40px 0;
 }
@@ -193,11 +202,6 @@ ul {
   color: #c242a6;
   font-size: 1.3rem;
   font-weight: bold;
-  margin-bottom: 0;
-}
-
-.schedule-hour + p {
-  margin-left: 25px;
 }
 
 .schedule-row {

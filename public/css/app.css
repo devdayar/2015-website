@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  background: #444;
+  background-image: linear-gradient(#A3D9FF, #6F8AB7);
   color: #fff;
   padding: 40px 0;
 }
@@ -38,13 +38,13 @@ footer .social-links a {
 
 footer .social-links li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 25px;
   vertical-align: top;
 }
 
 footer .social-links img {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -56,7 +56,7 @@ h1{
 }
 
 header {
-  border-bottom: 1px solid rgba(0, 0, 0, .25);
+  border-bottom: 1px solid rgba(0, 0, 0, .5);
   color: white;
   text-align: center;
 }
@@ -156,6 +156,10 @@ ul {
   width: 100%;
 }
 
+.button:focus {
+  background: #c242a6;
+}
+
 .button:hover {
   background: #c242a6;
   letter-spacing: 2px;
@@ -171,7 +175,7 @@ ul {
 }
 
 .gradient {
-  background-image: linear-gradient(#060910, #7ea5d7);
+  background-image: linear-gradient(#A3D9FF, #6F8AB7);
 }
 
 .menu > li {
@@ -205,7 +209,7 @@ ul {
 }
 
 .text-shadow {
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
 }
 
 .top-bar {

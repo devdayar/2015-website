@@ -151,6 +151,12 @@ ul {
   background-image: linear-gradient(#060910, #7ea5d7);
 }
 
+.menu > li {
+  border-top: 1px solid rgba(255, 255, 255, .25);
+  display: block;
+  padding: 10px 0;
+}
+
 .schedule-container {
   border: 1px solid rgba(0, 0, 0, .25);
   margin-top: 25px;
@@ -191,4 +197,12 @@ ul {
 .top-bar ul a {
   color: white;
   font-weight:bold;
+}
+
+@media screen and (min-width: 40em) {
+  .menu > li {
+    border-top: 0;
+    display: table-cell;
+    padding: 0;
+  }
 }

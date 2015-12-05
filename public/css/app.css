@@ -15,13 +15,20 @@ footer {
   padding: 40px 0;
 }
 
+footer img.logo {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 300px;
+  width: 100%;
+}
+
 footer .button {
   margin-top: 25px;
 }
 
 footer .social-links {
   list-style: none;
-  margin-top: 50px;
+  margin: 50px 0 0;
 }
 
 footer .social-links a {
@@ -32,7 +39,6 @@ footer .social-links a {
 footer .social-links li {
   display: inline-block;
   margin: 0 10px;
-  padding: 10px;
   vertical-align: top;
 }
 
@@ -217,6 +223,10 @@ ul {
 }
 
 @media screen and (min-width: 40em) {
+  footer img.logo {
+    margin-left: 0;
+  }
+
   footer .social-links {
     margin-top: 0;
   }

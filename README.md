@@ -24,7 +24,11 @@ npm run gh-pages
 - [X] ~~Fix mobile menu: One link per line~~
 - [X] ~~Footer: Get social links and images~~
 - [X] ~~Titles: Improve them visually~~
+- [X] ~~Schedule: Improve it visually~~
+- [X] ~~Can we have a better quality logo? (Ask someone)~~
+- [ ] Update the logo and the header background
+- [ ] Favicon
+- [ ] Link to DevDayAr's Github organization
+- [ ] Link to Eventioz
 - [ ] Talks and Workshops: Complete the thumbnails. Do they need to show a description, speaker information, links?
-- [ ] Schedule: Improve it visually
-- [ ] Can we have a better quality logo? (Ask someone)
-- [ ] Add more real content (Nico)
+- [ ] Add more real content (Nico + Chapu :+1:)

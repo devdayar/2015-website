@@ -260,6 +260,11 @@ ul {
   outline: 0;
 }
 
+#map {
+  width: 100%;
+  height: 400px;
+}
+
 @media screen and (min-width: 40em) {
   footer img.logo {
     margin-left: 0;

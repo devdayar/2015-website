@@ -1,3 +1,5 @@
+@import "./vendor/foundation.min.css";
+
 body {
   background-color: white;
   color: #666;

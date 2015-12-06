@@ -1,3 +1,5 @@
+@import "./vendor/foundation.min.css";
+
 body {
   background-color: white;
   color: #666;
@@ -261,8 +263,9 @@ ul {
 }
 
 #map {
-  width: 100%;
   height: 400px;
+  margin-top: 50px;
+  width: 100%;
 }
 
 #sponsors {

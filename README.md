@@ -35,4 +35,4 @@ npm run gh-pages
 - [X] ~~Add links to sponsors section~~
 - [X] ~~Hide menu until the page is ready~~
 - [X] ~~Start header animation when site is completely loaded~~
-- [ ] Add a link to each speaker's profile
+- [ ] Add a link to each speaker's profile, technology and framework

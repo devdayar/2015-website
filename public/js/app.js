@@ -1,7 +1,6 @@
 var microsoftLatLong = { lat:-34.5991426, lng:-58.3695557},
     mapCanvas,map,marker;
 
-
 $(document).foundation();
 
 function initialize() {
@@ -23,7 +22,6 @@ function initialize() {
   google.maps.event.addDomListener(window, 'resize', function() {
       map.setCenter(microsoftLatLong);
   });
-
 }
 
 $(function() {

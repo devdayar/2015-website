@@ -265,6 +265,10 @@ ul {
   height: 400px;
 }
 
+#sponsors {
+  background: #f9f9f9;
+}
+
 @media screen and (min-width: 40em) {
   footer img.logo {
     margin-left: 0;

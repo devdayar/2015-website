@@ -144,9 +144,15 @@ ul {
 }
 
 #map {
+  box-shadow: 5px 5px rgba(0, 0, 0, .25);
   height: 400px;
   margin-top: 50px;
+  transition: all .25s ease;
   width: 100%;
+}
+
+#map:hover {
+  box-shadow: 10px 10px rgba(0, 0, 0, .4);
 }
 
 #sponsors {

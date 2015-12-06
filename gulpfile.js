@@ -82,8 +82,8 @@ gulp.task("js", ["clean-js"], function () {
             path.join(srcDir, "js", "vendor", "foundation.min.js"),
             path.join(srcDir, "js", "*.js")
         ])
-        .pipe(uglify())
         .pipe(concat("main.js"))
+        .pipe(uglify())
         .pipe(gulp.dest(path.join(publicDir, "js")))
         .pipe(browserSync.stream())
 })

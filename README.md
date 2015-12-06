@@ -33,6 +33,6 @@ npm run gh-pages
 - [X] ~~Optimize CSS and JavaScript assets~~
 - [X] ~~Create sponsors section~~
 - [X] ~~Add links to sponsors section~~
-- [ ] Hide menu until the page is ready
-- [ ] Start header animation when site is completely loaded
+- [X] ~~Hide menu until the page is ready~~
+- [X] ~~Start header animation when site is completely loaded~~
 - [ ] Add a link to each speaker's profile

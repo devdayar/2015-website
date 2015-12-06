@@ -163,6 +163,19 @@ ul {
   transform: perspective(600px) rotateY(15deg);
 }
 
+.animate-pattern {
+  animation: animate-pattern 5s ease-in-out infinite alternate;
+}
+
+@keyframes animate-pattern {
+  0 {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
 .animate-right:hover {
   transform: perspective(600px) rotateY(-15deg);
 }
@@ -217,18 +230,8 @@ ul {
 }
 
 .pattern {
-  animation: animate-pattern 5s ease-in-out infinite alternate;
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
-}
-
-@keyframes animate-pattern {
-  0 {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 0 100%;
-  }
 }
 
 .schedule-container {

@@ -5,6 +5,7 @@ $(document).foundation();
 
 $(document).on("ready", function () {
   $("#menu").removeClass("hide");
+  $("#header").addClass("animate-pattern");
 });
 
 function initialize() {

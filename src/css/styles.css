@@ -257,6 +257,17 @@ ul {
   font-weight:bold;
 }
 
+.top-bar ul a:focus,
+.top-bar ul a:active {
+  outline: 0;
+}
+
+#map {
+  height: 400px;
+  margin-top: 50px;
+  width: 100%;
+}
+
 @media screen and (min-width: 40em) {
   footer img.logo {
     margin-left: 0;

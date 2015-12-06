@@ -30,6 +30,6 @@ npm run gh-pages
 - [X] ~~Link to DevDayAr's Github organization~~
 - [X] ~~Link to Eventioz~~
 - [X] ~~Favicon~~
-- [ ] Optimize CSS and JavaScript assets
+- [X] ~~Optimize CSS and JavaScript assets~~
 - [ ] Create sponsors section
 - [ ] Can we automate publication to the FTP server?

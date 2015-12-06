@@ -31,5 +31,5 @@ npm run gh-pages
 - [X] ~~Link to Eventioz~~
 - [X] ~~Favicon~~
 - [X] ~~Optimize CSS and JavaScript assets~~
-- [ ] Create sponsors section
-- [ ] Can we automate publication to the FTP server?
+- [X] ~~Create sponsors section~~
+- [X] ~~Add links to sponsors section~~

@@ -315,6 +315,22 @@ ul {
   outline: 0;
 }
 
+.recursos .accordion-title:focus, .accordion-title:hover {
+  background: #f9f9f9;
+}
+
+.recursos .accordion-title::before {
+  color: #c242a6;
+}
+
+.recursos .spacing {
+  margin-top: 30px;
+}
+
+.recursos .accordion-content a {
+  color: #c242a6;
+}
+
 @media screen and (min-width: 40em) {
   .lightning-talks-image {
     margin-bottom: 0;
@@ -339,3 +355,4 @@ ul {
     padding: 0;
   }
 }
+

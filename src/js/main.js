@@ -6,6 +6,9 @@ $(document).foundation();
 $(document).on("ready", function () {
   $("#menu").removeClass("hide");
   $("#header").addClass("animate-pattern");
+  $("#js-header-button").on("click", function onButtonHeaderClick (event) {
+      alert("Gracias por haber venido ;)")
+  });
 });
 
 function initialize() {
